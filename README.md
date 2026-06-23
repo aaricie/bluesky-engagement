@@ -6,7 +6,7 @@ CSVs. Given one or more handles, it figures out *who you interact with* and
 time window, and writes tables you can open in Excel or import into
 [Gephi](https://gephi.org/) to map your posting ecosystem.
 
-It reads **only public data** over the AT Protocol. No login is required.
+It reads **only public data** over the AT Protocol. No login is required, it is only offered as reading inbound engagement is much faster (22x per page which cmpounds to more than 100x per inbound accounts).
 Nothing is ever written to your account.
 
 ## Download
