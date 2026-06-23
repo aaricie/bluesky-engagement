@@ -1,0 +1,26 @@
+[project]
+name = "bsky-engagement"
+version = "0.1.0"
+description = "Export a Bluesky user's engagement (who they interact with and who interacts back) to spreadsheet + Gephi-ready CSVs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+build = ["pyinstaller>=6.0"]
+
+[project.scripts]
+bsky-engagement = "bsky_engagement.cli:main"
+
+[project.gui-scripts]
+bsky-engagement-gui = "bsky_engagement.gui:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["bsky_engagement"]
