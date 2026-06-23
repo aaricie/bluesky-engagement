@@ -9,6 +9,20 @@ time window, and writes tables you can open in Excel or import into
 It reads **only public data** over the AT Protocol. No login is required.
 Nothing is ever written to your account.
 
+## Download
+
+Grab a prebuilt app from the [**Releases**](https://github.com/aaricie/bluesky-engagement/releases/latest)
+page — no Python install needed:
+
+- **Windows:** download the `.exe` and double-click it. (Windows SmartScreen may
+  warn it's from an unknown publisher — choose *More info → Run anyway*.)
+- **macOS:** if a `.app` is attached, download it and right-click → *Open* the
+  first time (Gatekeeper warns about unsigned apps). If no Mac build is attached
+  yet, [build it from source](#building-standalone-binaries) on a Mac.
+
+Prefer the command line or want the latest unreleased code? See
+[Install &amp; run (from source)](#install--run-from-source).
+
 ## What you get
 
 For each handle, a folder containing three files:
